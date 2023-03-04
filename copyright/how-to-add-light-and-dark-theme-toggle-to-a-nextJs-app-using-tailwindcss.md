@@ -520,7 +520,7 @@ export default Navbar;
 
 ```
 
-Now, let’s give our theme-toggle functionality a test. Check the screenshots below, to see how beautiful our app look on both light and dark modes.
+Now, let’s give our theme-toggle functionality a test. Check the screenshots below, to see how beautiful our app looks on both light and dark modes.
 
 ![project screenshot](./images/screen-5.png)
 
