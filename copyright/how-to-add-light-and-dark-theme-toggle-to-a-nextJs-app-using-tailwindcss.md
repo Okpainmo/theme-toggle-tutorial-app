@@ -1,5 +1,5 @@
 <div align="center">
-This article is copyrighted. All rights right reserved by Andrew James Okpainmo <a href="https://www.smashingmagazine.com">for smashing magazine</a> Please do not copy or infringe in any form.
+This article is copyrighted. All rights reserved by Andrew James Okpainmo <a href="https://www.smashingmagazine.com">for smashing magazine</a> Please do not copy or infringe in any form.
 </div>
 <br> 
 <div align="center">
