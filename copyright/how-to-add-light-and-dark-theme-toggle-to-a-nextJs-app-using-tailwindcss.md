@@ -197,7 +197,7 @@ Up next, let’s create a nice-looking navbar component where we’ll add naviga
 
 The NextJs page-based routing prohibits adding of components into the pages directory. Only page based files should stay in the pages folder.
 
-Hence, All components including this navbar component will stay inside of the components folder.
+Hence, All components including this navbar component as shown below, will stay inside of the components folder.
 
 ```
 import React from 'react';
@@ -234,30 +234,20 @@ Now, update the code in the “index.js” file to look like the one below.
 ```
 
 import React from 'react';
-import Link from 'next/link';
+import Navbar from '@/components/Navbar';
 
-function Navbar() {
+function Home() {
   return (
-    <nav className='navbar w-full px-20 py-3 shadow-lg'>
-      <div className='flex items-center'>
-        <section className='nav-left font-bold mr-auto text-xl'>TTTA</section>
-        <ul className='nav-links flex gap-16 items-center'>
-          <Link href='/'>
-            <li>Home</li>
-          </Link>
-          <Link href='/about'>
-            <li>About</li>
-          </Link>
-          <Link href='/contacts'>
-            <li>Contacts</li>
-          </Link>
-        </ul>
-      </div>
-    </nav>
+    <main className='min-h-screen text--colors_default bg--default'>
+      <Navbar />
+      <h1 className='text-3xl font-bold underline text--colors_primary px-20 py-12'>
+        This is the landing page.
+      </h1>
+    </main>
   );
 }
 
-export default Navbar;
+export default Home;
 
 
 ```
