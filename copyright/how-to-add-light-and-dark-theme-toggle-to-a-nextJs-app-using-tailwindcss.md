@@ -1,5 +1,5 @@
 <div align="center">
-This article is copyrighted. All rights right reserved by Andrew James Okpainmo (for smashing magazine). Please do not copy or infringe in any form.
+This article is copyrighted. All rights right reserved by Andrew James Okpainmo (for smashing magazine)[https://www.smashingmagazine.com]. Please do not copy or infringe in any form.
 </div>
 <br> 
 <div align="center">
@@ -341,9 +341,9 @@ In the above code, we used the tailwindcss color classes, to customize how we wa
 
 Next, do the following:
 
-1. replace the “text-blue-500” class in “index.js”, “about.js”, and “contacts.js” with the “text—colors_primary” class that we created in out “globals.css” file.
+1. replace the “text-blue-500” class in “index.js”, “about.js”, and “contacts.js” with the “text—colors_primary” class that we created in out “globals.css” file above.
 
-If you check in your app, you will not notice any difference, because we customized the “text—colors_primary” class to still be “text-blue-500” when on light mode.
+> If you check in your app after doing so, you will not notice any difference, because we customized the “text—colors_primary” class to still be “text-blue-500” when on light mode.
 
 2. Similarly, add both the “text—colors_default” and “bg—default” classes to the “main” HTML tag in “index.js”, “contacts.js”, and “about.js”.
 
