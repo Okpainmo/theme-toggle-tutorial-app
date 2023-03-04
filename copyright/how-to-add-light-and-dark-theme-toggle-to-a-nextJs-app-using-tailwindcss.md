@@ -1,5 +1,5 @@
 <div align="center">
-This article is copyrighted. All rights right reserved by Andrew James Okpainmo. Please do not copy or infringe in any form.
+This article is copyrighted. All rights right reserved by Andrew James Okpainmo (for smashing magazine). Please do not copy or infringe in any form.
 </div>
 <br> 
 <div align="center">
@@ -13,7 +13,7 @@ The world of programming is a “world of trends”. Trends come and go. While s
 
 Such trends can be in the form of preferences for certain programming languages, libraries/frameworks or the use of certain design/development patterns.
 
-One trend that impresses me quite well, is the theme-ing trend. It’s very common nowadays to see applications or websites with the theme-toggle functionality – a feature that enables users to select themes or color preferences with which they wish to explore the app or website.
+One trend that impresses me quite well, is the "theme-ing" trend. It’s very common nowadays to see applications or websites with the theme-toggle functionality – a feature that enables users to select themes or color preferences with which they wish to explore the app or website.
 
 The most common theme functionality, is the light-dark mode selection.
 
@@ -61,7 +61,7 @@ The [tailwindcss framework guide for NextJs](https://tailwindcss.com/docs/guides
 First, we’ll run the following command to create a NextJs app.
 
 ```
-npx create-next-app@latest theme-toggle-tutorial-project
+npx create-next-app@latest theme-toggle-tutorial-app
 
 ```
 
@@ -185,7 +185,7 @@ If your app successfully starts with a screen looking like the one below, then e
 
 ### Building The App Pages And Components
 
-The NextJs file-based routing system, makes it very easy to create page pages. Simply create a new file in the pages directory, and it automatically becomes a page, and whatever you name it becomes the route/link to that page.
+The NextJs file-based routing system, makes it very easy to create pages. Simply create a new file in the pages directory, and it automatically becomes a page, and whatever you name it becomes the route/link to that page.
 
 The “index.js” file serves as the landing page.
 
