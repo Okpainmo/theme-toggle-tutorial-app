@@ -472,7 +472,7 @@ Now, we have to find a way around it.
 
 I was able to come up with a pretty good fix for this, thanks to “dynamic import” – an advanced feature that NextJs has.
 
-You can (learn more about dynamic import on NextJs’ website)[https://nextjs.org/docs/advanced-features/dynamic-import] if you wish, but the screenshot below provides a summary of how we can use “dynamic import”(dynamic) along with the “no ssr” option to fix this problem.
+You can [learn more about dynamic import on NextJs’ website](https://nextjs.org/docs/advanced-features/dynamic-import) if you wish, but the screenshot below provides a summary of how we can use “dynamic import”(dynamic) along with the “no ssr” option to fix this problem.
 
 ![project screenshot](./images/screen-4.png)
 
@@ -530,21 +530,21 @@ Now, let’s give our theme-toggle functionality a test. Check the screenshots b
 
 Having understood the logic behind the theme-toggle funtionality, I believe you can now build on this and go even more “extreme”.
 
-You might even wish to go as far as adding extra theme options on top of dark/light mode selection. More like being able to choose dark or light theme with different colors combinations for buttons and other parts of the website or app.
+You might even wish to go as far as adding extra theme options on top of dark/light theme selection. More like being able to choose dark or light theme with different colors combinations for buttons and other parts of the website or app.
 
 It’s all up to you.
 
-Simply follow the patterns stated out in this article, add more relevant color combinations if need be, then improve the toggle logic to get your desired result.
+Simply follow the patterns stated out in this article, add more relevant color customizations, then improve the toggle logic to get your desired result - if need be.
 
 ## Conclusion
 
 Like I mentioned earlier, I am a big fan of the theme-toggle trend. Since I figured out how to implement this feature, I’ve been implementing it in most of the projects I’ve worked on. Almost all my side projects have this feature.
 
-I believe this article has equipped you with all you need to create that extra quality that theme-toggling adds to websites and apps.
+I believe this article has equipped you with all you need to begin shipping more appealing and user friendly app and websites - thanks to theme-toggling. I trust you enjoyed the article.
 
-Even though this tutorial is NextJs based, the logic can be easily applied to any other Javascript framework or library of choice using tailwindcss.
+Even though this tutorial is NextJs based, the logic can be easily applied to any other Javascript framework or library of choice using tailwindcss. Implementing it in ReactJs will be very similar.
 
-Here is a link to the (github repository hosting)[https://github.com/Okpainmo/theme-toggle-tutorial-project] the project
+Here is a link to [the github repository](https://github.com/Okpainmo/theme-toggle-tutorial-project) hosting the project.
 
 Thanks a lot for reading. I am glad you followed up to this point.
 Cheers!!!
